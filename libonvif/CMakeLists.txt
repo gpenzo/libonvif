@@ -44,7 +44,7 @@ endif()
 
 if (NOT WITHOUT_LIBS)
 
-    add_library(libonvif SHARED
+    add_library(libonvif
         src/onvif.c
         src/cencode.c
         src/sha1.c
